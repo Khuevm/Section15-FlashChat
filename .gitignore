@@ -1,0 +1,10 @@
+Flash Chat iOS13.xcworkspace/xcuserdata/
+Pods/
+*.DS_Store
+Flash Chat iOS13.xcodeproj/xcuserdata/
+build/
+fastlane/report.xml
+*.zip
+*.ipa
+*.dSYM
+*.xcuserstate
