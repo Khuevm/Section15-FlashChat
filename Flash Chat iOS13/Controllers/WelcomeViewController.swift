@@ -7,17 +7,16 @@
 //
 
 import UIKit
-import CLTypingLabel
 
 class WelcomeViewController: UIViewController {
     // MARK: - IBOutlet
-    @IBOutlet weak var titleLabel: CLTypingLabel!
+    @IBOutlet weak var titleLabel: UILabel!
     
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
-//        animateText()
+        animateText()
         titleLabel.text = K.appName
     }
     
